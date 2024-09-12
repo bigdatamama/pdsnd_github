@@ -34,7 +34,7 @@ def get_filters():
 
     print(f"You selected: {city.title()} for the month: {month}.")
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday) I mean it. How are you supposed to know when to use dot notation and when to use ()?
     valid_days = ["all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] #define valid days
     day = input("Which day of the week would you like to review? " ).strip().lower() #make case insensitive
         
