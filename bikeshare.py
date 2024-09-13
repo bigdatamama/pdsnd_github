@@ -21,7 +21,7 @@ def get_filters():
     city = input("Which city would you like to review: Chicago, New York City, or Washington? ").strip().lower()
 
     while city not in valid_cities:
-        print("That is not an option. Please try again.") #handle errors in input
+        print("That is not an option. Please try again.") #handle errors in input ##git is much more intuitive to me
         city = input("Which city would you like to review: Chicago, New York City, or Washington? ").strip().lower() #make case insensitive      
 
     # TO DO: get user input for month (all, january, february, ... , june)
