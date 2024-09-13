@@ -24,9 +24,17 @@ def get_filters():
         print("That is not an option. Please try again.") #handle errors in input ##git is much more intuitive to me
         city = input("Which city would you like to review: Chicago, New York City, or Washington? ").strip().lower() #make case insensitive      
 
+<<<<<<< HEAD
     # TO DO: get user input for month (all, january, february, ... , june) I really hate python. It is not intuitive AT ALL.
 
     valid_months = ["all", "january", "february", "march", "april", "may", "june"] #define valid months #git is much more intuitive
+||||||| parent of 1a0aec5 (fixing the merge error)
+    # TO DO: get user input for month (all, january, february, ... , june) ##all this practice really helps
+    valid_months = ["all", "january", "february", "march", "april", "may", "june"] #define valid months
+=======
+    # TO DO: get user input for month (all, january, february, ... , june) 
+    valid_months = ["all", "january", "february", "march", "april", "may", "june"] #define valid months
+>>>>>>> 1a0aec5 (fixing the merge error)
     month = input("Which month would you like to review: all, january, february, march, april, may, or june? ").strip().lower() #make case insensitive
 
     while month not in valid_months:
