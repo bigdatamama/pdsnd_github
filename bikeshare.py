@@ -24,7 +24,7 @@ def get_filters():
         print("That is not an option. Please try again.") #handle errors in input ##git is much more intuitive to me
         city = input("Which city would you like to review: Chicago, New York City, or Washington? ").strip().lower() #make case insensitive      
 
-    # TO DO: get user input for month (all, january, february, ... , june) ##all this practice really helps
+    # TO DO: get user input for month (all, january, february, ... , june) 
     valid_months = ["all", "january", "february", "march", "april", "may", "june"] #define valid months
     month = input("Which month would you like to review: all, january, february, march, april, may, or june? ").strip().lower() #make case insensitive
 
@@ -34,7 +34,7 @@ def get_filters():
 
     print(f"You selected: {city.title()} for the month: {month}.")
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday) ##all this practice really helps
     valid_days = ["all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] #define valid days
     day = input("Which day of the week would you like to review? " ).strip().lower() #make case insensitive
         
