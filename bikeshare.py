@@ -29,7 +29,7 @@ def get_filters():
     month = input("Which month would you like to review: all, january, february, march, april, may, or june? ").strip().lower() #make case insensitive
 
     while month not in valid_months:
-        print("That is not an option. Try again.") #handle errors in input
+        print("That is not an option. Try again.") #handle errors in input ##can't wait to make a real git repo of my own!!
         month = input("Which month would you like to review: all, january, february, march, april, may, or june? ").strip().lower() #make case insensitive
 
     print(f"You selected: {city.title()} for the month: {month}.")
